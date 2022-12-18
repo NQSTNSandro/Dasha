@@ -1,6 +1,10 @@
 package moduls;
 
 import org.junit.jupiter.api.Test;
+
+/**
+ * Тест метода inject
+ */
 class InjectorTest {
 
     @Test

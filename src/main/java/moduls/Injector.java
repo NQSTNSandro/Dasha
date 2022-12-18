@@ -8,9 +8,16 @@ import java.io.FileReader;
 import java.io.IOException;
 import java.lang.reflect.Field;
 import java.util.Properties;
-
+/**
+ * @author Drozdova Dasha
+ * @version lab 5
+ */
 public class Injector {
-
+    /**
+     * Метод inject принимает
+     * @param object объект класса
+     * @return измененный с помощью рефлексии объект
+     */
     public <T> T inject(T object) {
         File file = new File("src/main/resources/data.properties");
         Properties properties = new Properties();
